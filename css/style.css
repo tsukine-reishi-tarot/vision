@@ -828,3 +828,508 @@ a {
   }
 
 }
+
+/* ========================================
+   Privacy Policy
+======================================== */
+
+.privacy {
+  width: 100%;
+  max-width: 430px;
+
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(116, 25, 63, 0.18) 0%,
+      rgba(28, 12, 26, 0) 32%
+    ),
+    #1c0c1a;
+
+  color: #fff;
+}
+
+
+/* ========================================
+   Privacy Header
+======================================== */
+
+.privacy__header {
+  padding:
+    52px
+    24px
+    34px;
+
+  text-align: center;
+}
+
+.privacy__brand {
+  margin:
+    0
+    0
+    12px;
+
+  color: #e7c578;
+
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+
+.privacy__title {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+}
+
+.privacy__line {
+  width: 72px;
+  height: 1px;
+
+  margin:
+    22px
+    auto
+    0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(232, 192, 107, 0) 0%,
+      #e8c06b 50%,
+      rgba(232, 192, 107, 0) 100%
+    );
+
+  box-shadow:
+    0 0 8px rgba(232, 192, 107, 0.45);
+}
+
+
+/* ========================================
+   Privacy Contents
+======================================== */
+
+.privacy__contents {
+  padding:
+    0
+    24px
+    50px;
+}
+
+.privacy__intro {
+  margin:
+    0
+    0
+    42px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+
+  text-align: justify;
+
+  color: rgba(255, 255, 255, 0.88);
+}
+
+
+/* ========================================
+   Privacy Section
+======================================== */
+
+.privacy__section {
+  padding:
+    0
+    0
+    32px;
+
+  margin:
+    0
+    0
+    32px;
+
+  border-bottom:
+    1px solid rgba(232, 192, 107, 0.18);
+}
+
+.privacy__heading {
+  display: flex;
+  align-items: baseline;
+
+  gap: 8px;
+
+  margin:
+    0
+    0
+    18px;
+
+  color: #e7c578;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+
+  letter-spacing: 0.03em;
+}
+
+.privacy__heading span {
+  flex-shrink: 0;
+
+  color: #d99d49;
+}
+
+.privacy__section p {
+  margin:
+    0
+    0
+    16px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+
+  text-align: justify;
+
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+/* ========================================
+   Privacy List
+======================================== */
+
+.privacy__list {
+  margin:
+    16px
+    0
+    0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.privacy__list li {
+  position: relative;
+
+  margin:
+    0
+    0
+    10px;
+
+  padding-left: 18px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9;
+
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.privacy__list li:last-child {
+  margin-bottom: 0;
+}
+
+.privacy__list li::before {
+  content: "・";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  color: #e7c578;
+}
+
+
+/* ========================================
+   Contact
+======================================== */
+
+.privacy__section--contact {
+  border-bottom: none;
+
+  margin-bottom: 18px;
+}
+
+.privacy__contact {
+  margin:
+    22px
+    0
+    0;
+
+  padding:
+    18px
+    16px;
+
+  border:
+    1px solid rgba(232, 192, 107, 0.28);
+
+  background:
+    rgba(255, 255, 255, 0.025);
+}
+
+.privacy__contact-row {
+  padding:
+    0
+    0
+    14px;
+
+  margin:
+    0
+    0
+    14px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.08);
+}
+
+.privacy__contact-row:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  border-bottom: none;
+}
+
+.privacy__contact dt {
+  margin:
+    0
+    0
+    5px;
+
+  color: #e7c578;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.privacy__contact dd {
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.privacy__contact a {
+  color: #fff;
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  overflow-wrap: anywhere;
+}
+
+
+/* ========================================
+   Back Button
+======================================== */
+
+.privacy__back {
+  margin:
+    42px
+    0
+    10px;
+
+  text-align: center;
+}
+
+.privacy__back a {
+  width: 100%;
+  max-width: 280px;
+  height: 52px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid rgba(232, 192, 107, 0.7);
+
+  border-radius: 999px;
+
+  color: #ead18e;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(67, 30, 54, 0.65) 0%,
+      rgba(31, 15, 28, 0.95) 100%
+    );
+
+  box-shadow:
+    0 0 12px rgba(232, 192, 107, 0.08);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.privacy__back a:active {
+  transform: scale(0.98);
+
+  opacity: 0.8;
+}
+
+
+/* ========================================
+   Privacy Footer
+======================================== */
+
+.privacy__footer {
+  padding:
+    24px
+    16px
+    28px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.07);
+
+  text-align: center;
+}
+
+.privacy__footer p {
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.48);
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+
+/* ========================================
+   Privacy 430px以下
+======================================== */
+
+@media screen and (max-width: 430px) {
+
+  .privacy__header {
+    padding:
+      12.09vw
+      5.58vw
+      7.91vw;
+  }
+
+  .privacy__brand {
+    margin-bottom: 2.79vw;
+
+    font-size: 3.02vw;
+  }
+
+  .privacy__title {
+    font-size: 6.28vw;
+  }
+
+  .privacy__line {
+    width: 16.74vw;
+    height: 0.23vw;
+
+    margin-top: 5.12vw;
+  }
+
+  .privacy__contents {
+    padding:
+      0
+      5.58vw
+      11.63vw;
+  }
+
+  .privacy__intro {
+    margin-bottom: 9.77vw;
+
+    font-size: 3.26vw;
+  }
+
+  .privacy__section {
+    padding-bottom: 7.44vw;
+
+    margin-bottom: 7.44vw;
+  }
+
+  .privacy__heading {
+    gap: 1.86vw;
+
+    margin-bottom: 4.19vw;
+
+    font-size: 4.19vw;
+  }
+
+  .privacy__section p {
+    margin-bottom: 3.72vw;
+
+    font-size: 3.26vw;
+  }
+
+  .privacy__list {
+    margin-top: 3.72vw;
+  }
+
+  .privacy__list li {
+    margin-bottom: 2.33vw;
+
+    padding-left: 4.19vw;
+
+    font-size: 3.26vw;
+  }
+
+  .privacy__contact {
+    margin-top: 5.12vw;
+
+    padding:
+      4.19vw
+      3.72vw;
+  }
+
+  .privacy__contact-row {
+    padding-bottom: 3.26vw;
+
+    margin-bottom: 3.26vw;
+  }
+
+  .privacy__contact dt {
+    margin-bottom: 1.16vw;
+
+    font-size: 2.79vw;
+  }
+
+  .privacy__contact dd {
+    font-size: 3.26vw;
+  }
+
+  .privacy__back {
+    margin:
+      9.77vw
+      0
+      2.33vw;
+  }
+
+  .privacy__back a {
+    max-width: 65.12vw;
+    height: 12.09vw;
+
+    font-size: 3.26vw;
+  }
+
+  .privacy__footer {
+    padding:
+      5.58vw
+      3.72vw
+      6.51vw;
+  }
+
+  .privacy__footer p {
+    font-size: 2.56vw;
+  }
+
+}
